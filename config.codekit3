@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/deploy/404page.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/404page.html",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -18,14 +26,6 @@
 		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/deploy/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 0
 		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
@@ -38,13 +38,48 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/index.kit": {
+	"/dev/404page.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/index.html",
+		"oAP": "/deploy/404page.html",
 		"oF": 2
+		},
+	"/dev/content/404page-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/404page-content.html",
+		"oF": 0
+		},
+	"/dev/global/head.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head.html",
+		"oF": 1
+		},
+	"/dev/global/scripts.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/deploy/scripts.html",
+		"oF": 3
+		},
+	"/dev/js/gsap-register.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gsap-register-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -54,6 +89,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -251,14 +297,6 @@
 		"oF": 2,
 		"oS": 0,
 		"sct": 0
-		},
-	"/dev/section-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section-1.html",
-		"oF": 0
 		},
 	"/README.md": {
 		"cB": 0,
@@ -1806,7 +1844,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "gsap, ScrollTrigger",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
