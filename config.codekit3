@@ -103,6 +103,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/scrollTrigger/opening-tag.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/opening-tag-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -233,7 +244,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_section-1.scss": {
+	"/dev/scss/sections/_404page-content.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -241,46 +252,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-1.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_section-2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-2.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_section-3.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-3.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_section-4.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-4.css",
+		"oAP": "/dev/scss/sections/_404page-content.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

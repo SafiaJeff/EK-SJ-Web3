@@ -14,18 +14,20 @@ ul{
     }
 }
 
-.container-grid{
+.grid-container{
     display: grid;
-    grid-template-columns: auto 1200px auto;
-    grid-template-areas: ". grid-content .";
-    min-height: 100vh;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". container .";
 
-    .grid-content{
-        grid-area: grid-content;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    @include xl{
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div{
+        grid-area: container;
     }
 }
 
+.content-spacing{
+    padding: 70px 0 50px;
+}
