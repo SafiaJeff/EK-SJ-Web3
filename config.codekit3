@@ -103,13 +103,13 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/scrollTrigger/opening-tag.js": {
+	"/dev/js/scrollTrigger/down-arrow.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/scrollTrigger/opening-tag-min.js",
+		"oAP": "/dev/js/scrollTrigger/down-arrow-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

@@ -456,6 +456,7 @@ textarea {
 ============= */
 #opening-tag {
   text-align: center;
+  margin-top: 100px;
 }
 
 #other-links {
@@ -464,4 +465,8 @@ textarea {
 
 #scroll-down {
   text-align: center;
+}
+
+#spacing {
+  margin: 1000px 0;
 }
