@@ -1,12 +1,13 @@
 var juiceTimeline = gsap.timeline();
-juiceTimeline.to("#juice",{duration:5, yPercent: 105})
+juiceTimeline.to("#juice",{duration:5, yPercent: 80})
 
 ScrollTrigger.create({
-    trigger: "#child",
-    start: "top 50%",
-    end: "bottom 50%",
+    trigger: "#right-arm",
+    start: "top 70%",
+    end: "bottom 20%",
     animation: juiceTimeline,
     toggleActions: "restart none reverse none",
-    scrub: 5
+    scrub: 20,
+    id: "juice"
     // markers: true
 });

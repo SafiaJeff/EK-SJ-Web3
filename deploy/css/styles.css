@@ -423,3 +423,5 @@ textarea {
   #content #lemons {
     display: block;
     margin: auto; }
+  #content #story-text {
+    margin: 200px; }
