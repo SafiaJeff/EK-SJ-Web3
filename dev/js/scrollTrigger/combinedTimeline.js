@@ -12,8 +12,8 @@ ScrollTrigger.create({
     animation: combinedTimeline,
     toggleActions: "restart none reverse none",
     scrub: 5,
-    id: "combo",
-    markers: true
+    id: "face-combo"
+    // markers: true
 });                
 
 
