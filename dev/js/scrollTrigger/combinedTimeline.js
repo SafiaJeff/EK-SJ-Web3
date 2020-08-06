@@ -7,12 +7,12 @@ combinedTimeline.to(".cheek", {alpha:0})
 ScrollTrigger.create({
     trigger: "#child",
     start: "top 20%",
-    end: "bottom 20%",
+    end: "bottom -1700px",
     animation: combinedTimeline,
     toggleActions: "restart none reverse none",
     scrub: 5,
     id: "face-combo",
-    stagger: 2
+    stagger: 5
     // markers: true
 });                
 

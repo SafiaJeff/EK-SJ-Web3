@@ -8,6 +8,6 @@ ScrollTrigger.create({
     animation: juiceTimeline,
     toggleActions: "restart none reverse none",
     scrub: 10,
-    id: "juice",
-    markers: true
+    id: "juice"
+    // markers: true
 });
