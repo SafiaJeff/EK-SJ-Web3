@@ -2,27 +2,42 @@
     404 Page
 ============= */
 
-#opening-tag{
-    text-align: center;
-    margin-top: 100px;
+#content{
+
+    background-color: $background-yellow;
+
+    #opening-tag{
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    #other-links{
+        text-align: center;
+    }
+    
+    #scroll-down{
+        text-align: center;
+    }
+    
+    #spacing{
+        margin: 1000px 0;
+    }
+    
+    #child{
+        display: block;
+        margin: auto;
+        height: 50%;
+    
+    }
+    
+    #lemons{
+        display: block;
+        margin: auto;
+        // height: 50%;
+    
+    }
+    
 }
 
-#other-links{
-    text-align: center;
-}
 
-#scroll-down{
-    text-align: center;
-}
-
-#spacing{
-    margin: 1000px 0;
-}
-
-#child{
-    display: block;
-    margin: auto;
-    height: 50%;
-
-}
 

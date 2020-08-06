@@ -397,20 +397,21 @@ textarea {
 /* =============
     404 Page
 ============= */
-#opening-tag {
-  text-align: center;
-  margin-top: 100px; }
-
-#other-links {
-  text-align: center; }
-
-#scroll-down {
-  text-align: center; }
-
-#spacing {
-  margin: 1000px 0; }
-
-#child {
-  display: block;
-  margin: auto;
-  height: 50%; }
+#content {
+  background-color: #FFFDF3; }
+  #content #opening-tag {
+    text-align: center;
+    margin-top: 100px; }
+  #content #other-links {
+    text-align: center; }
+  #content #scroll-down {
+    text-align: center; }
+  #content #spacing {
+    margin: 1000px 0; }
+  #content #child {
+    display: block;
+    margin: auto;
+    height: 50%; }
+  #content #lemons {
+    display: block;
+    margin: auto; }
