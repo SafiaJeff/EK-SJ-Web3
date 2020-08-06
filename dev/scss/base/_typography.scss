@@ -6,21 +6,32 @@
 // font-family: 'Caveat', cursive;
 // font-family: 'Rubik', sans-serif;
 
-body{
-    font-family: 'Rubik', sans-serif;
+// body{
+//     font-family: 'Rubik', sans-serif;
     
-}
+// }
 
 h1,h2,h3,h4{
     font-family: 'Caveat', cursive;
     margin: 0;
     padding: 0;
+    color: $bright-yellow;
+}
+
+h5{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+    color: $bright-yellow;
+    font-size: rem-calc(25);
 }
 
 p{
     margin: 0;
     padding: 0;
     line-height: rem-calc(30);
+    font-family: 'Rubik', sans-serif;
+    color: $bright-green;
 }
 
 #opening-tag{
@@ -36,7 +47,7 @@ p{
     }
 
     @include xl{
-        font-size: rem-calc(37);
+        font-size: rem-calc(40);
     }
 
 }

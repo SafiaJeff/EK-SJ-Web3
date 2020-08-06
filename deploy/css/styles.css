@@ -343,18 +343,25 @@ ul {
 /* =============
     Typography
 ============= */
-body {
-  font-family: 'Rubik', sans-serif; }
-
 h1, h2, h3, h4 {
   font-family: 'Caveat', cursive;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: #FBCC14; }
+
+h5 {
+  font-family: 'Caveat', cursive;
+  margin: 0;
+  padding: 0;
+  color: #FBCC14;
+  font-size: 1.5625rem; }
 
 p {
   margin: 0;
   padding: 0;
-  line-height: 1.875rem; }
+  line-height: 1.875rem;
+  font-family: 'Rubik', sans-serif;
+  color: #AACF57; }
 
 #opening-tag {
   font-size: 1.5625rem; }
@@ -366,7 +373,7 @@ p {
       font-size: 2.0625rem; } }
   @media (min-width: 1200px) {
     #opening-tag {
-      font-size: 2.3125rem; } }
+      font-size: 2.5rem; } }
 /* =============
     Buttons
 ============= */
@@ -398,7 +405,8 @@ textarea {
     404 Page
 ============= */
 #content {
-  background-color: #FFFDF3; }
+  background-color: #FFFDF3;
+  padding-top: 10px; }
   #content #opening-tag {
     text-align: center;
     margin-top: 100px; }
