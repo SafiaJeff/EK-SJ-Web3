@@ -1,8 +1,8 @@
 var combinedTimeline = gsap.timeline();
 
 combinedTimeline.to(".cheek", {alpha:0})
-                .to(".dimples", {alpha:0})
-                .to("#mouth",{rotation:180})
+                .to(".dimples", {alpha:0}, "sad")
+                .to("#mouth",{rotation:180}, "sad")
 
 ScrollTrigger.create({
     trigger: "#child",
