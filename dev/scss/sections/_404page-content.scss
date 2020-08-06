@@ -19,10 +19,7 @@
     #scroll-down{
         text-align: center;
     }
-    
-    #spacing{
-        margin: 1000px 0;
-    }
+
     
     #child{
         display: block;
@@ -30,12 +27,21 @@
         height: 50%;
     
     }
+
+    #sun{
+        margin-left: auto;
+        display: block;
+        padding-top: 100px;
+    }
     
     #lemons{
-        display: block;
-        margin: auto;
+        display: inline-block;
+        margin: 0 auto;
+        border: solid red 1px;
         // height: 50%;
-    
+        svg{
+            width: 100%;
+        }
     }
 
     #story-text{

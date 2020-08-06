@@ -414,15 +414,20 @@ textarea {
     text-align: center; }
   #content #scroll-down {
     text-align: center; }
-  #content #spacing {
-    margin: 1000px 0; }
   #content #child {
     display: block;
     margin: auto;
     height: 50%; }
-  #content #lemons {
+  #content #sun {
+    margin-left: auto;
     display: block;
-    margin: auto; }
+    padding-top: 100px; }
+  #content #lemons {
+    display: inline-block;
+    margin: 0 auto;
+    border: solid red 1px; }
+    #content #lemons svg {
+      width: 100%; }
   #content #story-text .story-left {
     text-align: left;
     padding-left: 200px; }
