@@ -15,15 +15,3 @@ ScrollTrigger.create({
 });
 
 
-var liquidTimeline = gsap.timeline();
-liquidTimeline.to("#liquid",{duration:5, yPercent: 20})
-
-ScrollTrigger.create({
-    trigger: "#child",
-    start: "top 30%",
-    end: "bottom 40%",
-    animation: liquidTimeline,
-    toggleActions: "restart none reverse none",
-    scrub: 1,
-    markers: true
-});

@@ -411,4 +411,6 @@ textarea {
   margin: 1000px 0; }
 
 #child {
+  display: block;
+  margin: auto;
   height: 50%; }
