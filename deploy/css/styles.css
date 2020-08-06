@@ -431,8 +431,9 @@ textarea {
     padding-right: 200px;
     padding-top: 400px; }
   #content #story-text #part1, #content #story-text #part2, #content #story-text #part3 {
-    padding-bottom: 400px; }
+    padding-bottom: 300px; }
   #content #story-text #stand-hours {
     text-align: center;
     display: relative;
-    z-index: 20; }
+    z-index: 20;
+    margin: 500px 0px; }
