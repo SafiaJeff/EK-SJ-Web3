@@ -3,6 +3,8 @@ var combinedTimeline = gsap.timeline();
 combinedTimeline.to(".cheek", {alpha:0})
                 .to(".dimples", {alpha:0}, "sad")
                 .to("#mouth",{rotation:180}, "sad")
+                .to("#right-eyebrow", {rotation:30}, "sad")
+                .to("#left-eyebrow", {rotation:-30}, "sad")
 
 ScrollTrigger.create({
     trigger: "#child",
@@ -18,3 +20,5 @@ ScrollTrigger.create({
 
 
 gsap.set("#mouth",{transformOrigin:"center center"});
+gsap.set("#right-eyebrow",{transformOrigin:"center center"});
+gsap.set("#left-eyebrow",{transformOrigin:"center center"});

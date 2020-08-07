@@ -6,7 +6,7 @@ arrowTimeline.from("#down-arrow",{duration:5, rotate:360, alpha:0})
 
 ScrollTrigger.create({
     trigger: "#other-links",
-    start: "top 30%",
+    start: "top 40%",
     end: "bottom 40%",
     animation: arrowTimeline,
     toggleActions: "restart none reverse none",

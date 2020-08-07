@@ -340,6 +340,25 @@ ul {
 .content-spacing {
   padding: 70px 0 50px; }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .button a:link,
+  .button a:visited {
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid #FBCC14;
+    transition: 0.25s;
+    color: #FBCC14;
+    text-decoration: none; }
+  .button a:hover,
+  .button a:active {
+    background-color: #FBCC14;
+    color: #fff;
+    text-decoration: none; }
+
 /* =============
     Typography
 ============= */
@@ -412,6 +431,15 @@ textarea {
     margin-top: 100px; }
   #content #other-links {
     text-align: center; }
+    #content #other-links p:nth-child(2) a:link,
+    #content #other-links p:nth-child(2) a:visited {
+      transition: 0.25s;
+      color: #AACF57;
+      text-decoration: none; }
+    #content #other-links p:nth-child(2) a:hover,
+    #content #other-links p:nth-child(2) a:active {
+      color: #D2E0B2;
+      text-decoration: none; }
   #content #scroll-down {
     text-align: center; }
   #content #child {
@@ -428,17 +456,35 @@ textarea {
     border: solid red 1px; }
     #content #lemons svg {
       width: 100%; }
-  #content #story-text .story-left {
-    text-align: left;
-    padding-left: 200px; }
-  #content #story-text .story-right {
-    text-align: right;
-    padding-right: 200px;
-    padding-top: 400px; }
-  #content #story-text #part1, #content #story-text #part2, #content #story-text #part3 {
-    padding-bottom: 300px; }
-  #content #story-text #stand-hours {
-    text-align: center;
-    display: relative;
-    z-index: 20;
-    margin: 500px 0px; }
+  #content #story-text {
+    font-size: 1.25rem; }
+    #content #story-text .story-left {
+      text-align: left;
+      padding-left: 200px; }
+    #content #story-text .story-right {
+      text-align: right;
+      padding-right: 200px;
+      padding-top: 400px; }
+    #content #story-text #part1, #content #story-text #part2, #content #story-text #part3 {
+      padding-bottom: 300px; }
+    #content #story-text #stand-hours {
+      text-align: center;
+      display: relative;
+      z-index: 20;
+      padding: 500px 0px 50px 0px; }
+  #content #sun {
+    margin-bottom: 300px; }
+    @media (min-width: 768px) {
+      #content #sun {
+        margin-right: 80px; } }
+    @media (min-width: 992px) {
+      #content #sun {
+        margin-right: 200px; } }
+  #content #lemons {
+    margin-bottom: 500px; }
+    @media (min-width: 768px) {
+      #content #lemons {
+        margin-left: 80px; } }
+    @media (min-width: 992px) {
+      #content #lemons {
+        margin-left: 200px; } }

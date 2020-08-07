@@ -14,6 +14,22 @@
     
     #other-links{
         text-align: center;
+
+        p:nth-child(2){
+            a:link,
+            a:visited{
+            transition: 0.25s;
+            color: $bright-green;
+            text-decoration: none;
+            }
+    
+            a:hover,
+            a:active{
+                color: $light-green;
+                text-decoration: none;
+            }
+    
+        }
     }
     
     #scroll-down{
@@ -57,6 +73,8 @@
             padding-top: 400px;
         }
 
+        font-size: rem-calc(20);
+
         #part1, #part2, #part3{
             padding-bottom: 300px;
         }
@@ -65,8 +83,32 @@
             text-align: center;
             display: relative;
             z-index: 20;
-            margin: 500px 0px;
+            padding: 500px 0px 50px 0px;
 
+        }
+    }
+
+    #sun{
+        margin-bottom: 300px;
+
+        @include md{
+            margin-right: 80px;
+        }
+
+        @include lg{
+            margin-right: 200px;
+        }
+        
+    }
+
+    #lemons{
+        margin-bottom: 500px;
+        @include md{
+            margin-left: 80px;
+        }
+
+        @include lg{
+            margin-left: 200px;
         }
     }
     
