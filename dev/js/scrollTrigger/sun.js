@@ -11,6 +11,6 @@ ScrollTrigger.create({
     animation: sunTimeline,
     toggleActions: "restart none reverse none",
     scrub: 1,
-    id:"#ray",
-    markers: true
+    id:"#ray"
+    // markers: true
 });

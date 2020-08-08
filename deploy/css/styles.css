@@ -452,10 +452,19 @@ textarea {
     padding-top: 100px; }
   #content #lemons {
     display: inline-block;
-    margin: 0 auto;
-    border: solid red 1px; }
-    #content #lemons svg {
-      width: 100%; }
+    margin: 0 auto; }
+    #content #lemons #lemon1,
+    #content #lemons #lemon2 {
+      height: 300px;
+      width: 300px;
+      padding: 40px; }
+      #content #lemons #lemon1 svg,
+      #content #lemons #lemon2 svg {
+        width: 100%; }
+    #content #lemons #lemon1 {
+      margin-bottom: 200px; }
+    #content #lemons #lemon2 {
+      margin-left: 500px; }
   #content #story-text {
     font-size: 1.25rem; }
     #content #story-text .story-left {
@@ -465,7 +474,9 @@ textarea {
       text-align: right;
       padding-right: 200px;
       padding-top: 400px; }
-    #content #story-text #part1, #content #story-text #part2, #content #story-text #part3 {
+    #content #story-text #part1,
+    #content #story-text #part2,
+    #content #story-text #part3 {
       padding-bottom: 300px; }
     #content #story-text #stand-hours {
       text-align: center;

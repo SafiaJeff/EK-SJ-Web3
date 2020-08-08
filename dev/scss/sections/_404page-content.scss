@@ -2,72 +2,89 @@
     404 Page
 ============= */
 
-#content{
+#content {
 
     background-color: $background-yellow;
     padding-top: 10px;
 
-    #opening-tag{
+    #opening-tag {
         text-align: center;
         margin-top: 100px;
     }
-    
-    #other-links{
+
+    #other-links {
         text-align: center;
 
-        p:nth-child(2){
+        p:nth-child(2) {
+
             a:link,
-            a:visited{
-            transition: 0.25s;
-            color: $bright-green;
-            text-decoration: none;
+            a:visited {
+                transition: 0.25s;
+                color: $bright-green;
+                text-decoration: none;
             }
-    
+
             a:hover,
-            a:active{
+            a:active {
                 color: $light-green;
                 text-decoration: none;
             }
-    
+
         }
     }
-    
-    #scroll-down{
+
+    #scroll-down {
         text-align: center;
     }
 
-    
-    #child{
+
+    #child {
         display: block;
         margin: auto;
         height: 50%;
-    
+
     }
 
-    #sun{
+    #sun {
         margin-left: auto;
         display: block;
         padding-top: 100px;
     }
-    
-    #lemons{
+
+    #lemons {
         display: inline-block;
         margin: 0 auto;
-        border: solid red 1px;
-        // height: 50%;
-        svg{
-            width: 100%;
+
+        #lemon1,
+        #lemon2 {
+            height: 300px;
+            width: 300px;
+            // border: 1px solid red;
+            padding: 40px;
+
+            svg {
+                width: 100%;
+            }
+        }
+
+        #lemon1{
+            margin-bottom: 200px;
+
+        }
+
+        #lemon2{
+            margin-left: 500px;
         }
     }
 
-    #story-text{
-        .story-left{
+    #story-text {
+        .story-left {
             text-align: left;
             padding-left: 200px;
-            
+
         }
 
-        .story-right{
+        .story-right {
             text-align: right;
             padding-right: 200px;
             padding-top: 400px;
@@ -75,11 +92,13 @@
 
         font-size: rem-calc(20);
 
-        #part1, #part2, #part3{
+        #part1,
+        #part2,
+        #part3 {
             padding-bottom: 300px;
         }
-        
-        #stand-hours{
+
+        #stand-hours {
             text-align: center;
             display: relative;
             z-index: 20;
@@ -88,31 +107,29 @@
         }
     }
 
-    #sun{
+    #sun {
         margin-bottom: 300px;
 
-        @include md{
+        @include md {
             margin-right: 80px;
         }
 
-        @include lg{
+        @include lg {
             margin-right: 200px;
         }
-        
+
     }
 
-    #lemons{
+    #lemons {
         margin-bottom: 500px;
-        @include md{
+
+        @include md {
             margin-left: 80px;
         }
 
-        @include lg{
+        @include lg {
             margin-left: 200px;
         }
     }
-    
+
 }
-
-
-
