@@ -56,27 +56,34 @@
         margin: 0 auto;
         margin-bottom: 200px;
 
-        #lemon1,
-        #lemon2 {
-            height: 300px;
-            width: 300px;
+        #lemon1{
+            height: 200px;
+            width: 200px;
             // border: 1px solid red;
             padding: 40px;
 
             svg {
                 width: 100%;
             }
-        }
 
-        #lemon1{
             margin-bottom: 100px;
-            margin-left: 100px;
-
+            margin-left: 200px;
         }
 
-        #lemon2{
+        #lemon2 {
+            height: 250px;
+            width: 250px;
+            // border: 1px solid red;
+            padding: 40px;
+
+            svg {
+                width: 100%;
+            }
+
             margin-left: 600px;
         }
+
+        
     }
 
     #story-text {

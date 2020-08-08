@@ -454,19 +454,21 @@ textarea {
     display: inline-block;
     margin: 0 auto;
     margin-bottom: 200px; }
-    #content #lemons #lemon1,
+    #content #lemons #lemon1 {
+      height: 200px;
+      width: 200px;
+      padding: 40px;
+      margin-bottom: 100px;
+      margin-left: 200px; }
+      #content #lemons #lemon1 svg {
+        width: 100%; }
     #content #lemons #lemon2 {
-      height: 300px;
-      width: 300px;
-      padding: 40px; }
-      #content #lemons #lemon1 svg,
+      height: 250px;
+      width: 250px;
+      padding: 40px;
+      margin-left: 600px; }
       #content #lemons #lemon2 svg {
         width: 100%; }
-    #content #lemons #lemon1 {
-      margin-bottom: 100px;
-      margin-left: 100px; }
-    #content #lemons #lemon2 {
-      margin-left: 600px; }
   #content #story-text {
     font-size: 1.25rem; }
     #content #story-text .story-left {
