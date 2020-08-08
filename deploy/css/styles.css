@@ -444,7 +444,8 @@ textarea {
     text-align: center; }
   #content #child {
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     height: 50%; }
   #content #sun {
     margin-left: auto;
