@@ -50,6 +50,16 @@
         margin-left: auto;
         display: block;
         padding-top: 100px;
+
+        margin-bottom: 200px;
+
+        @include md {
+            padding-right: 80px;
+        }
+
+        @include lg {
+            padding-right: 200px;
+        }
     }
 
     #lemons {
@@ -117,18 +127,7 @@
         }
     }
 
-    #sun {
-        margin-bottom: 300px;
-
-        @include md {
-            margin-right: 80px;
-        }
-
-        @include lg {
-            margin-right: 200px;
-        }
-
-    }
+   
 
     // #lemons {
     //     margin-bottom: 500px;
