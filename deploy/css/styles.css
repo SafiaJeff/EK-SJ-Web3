@@ -452,7 +452,8 @@ textarea {
     padding-top: 100px; }
   #content #lemons {
     display: inline-block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 200px; }
     #content #lemons #lemon1,
     #content #lemons #lemon2 {
       height: 300px;
@@ -462,9 +463,10 @@ textarea {
       #content #lemons #lemon2 svg {
         width: 100%; }
     #content #lemons #lemon1 {
-      margin-bottom: 200px; }
+      margin-bottom: 100px;
+      margin-left: 100px; }
     #content #lemons #lemon2 {
-      margin-left: 500px; }
+      margin-left: 600px; }
   #content #story-text {
     font-size: 1.25rem; }
     #content #story-text .story-left {
@@ -491,11 +493,3 @@ textarea {
     @media (min-width: 992px) {
       #content #sun {
         margin-right: 200px; } }
-  #content #lemons {
-    margin-bottom: 500px; }
-    @media (min-width: 768px) {
-      #content #lemons {
-        margin-left: 80px; } }
-    @media (min-width: 992px) {
-      #content #lemons {
-        margin-left: 200px; } }

@@ -1,6 +1,6 @@
 var sunTimeline = gsap.timeline();
-sunTimeline.from(".suncirclepart",{duration:2, alpha:0, xPercent:120}, "suncomes")
-            .from(".ray",{duration:2, alpha:0, xPercent:120}, "suncomes" )
+sunTimeline.from(".suncirclepart",{duration:2, alpha:0, xPercent:30}, "suncomes")
+            .from(".ray",{duration:2, alpha:0, xPercent:30}, "suncomes" )
             .from(".sunexpression",{duration:2, alpha:0})
             
 

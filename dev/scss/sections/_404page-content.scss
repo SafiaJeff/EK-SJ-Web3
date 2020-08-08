@@ -54,6 +54,7 @@
     #lemons {
         display: inline-block;
         margin: 0 auto;
+        margin-bottom: 200px;
 
         #lemon1,
         #lemon2 {
@@ -68,12 +69,13 @@
         }
 
         #lemon1{
-            margin-bottom: 200px;
+            margin-bottom: 100px;
+            margin-left: 100px;
 
         }
 
         #lemon2{
-            margin-left: 500px;
+            margin-left: 600px;
         }
     }
 
@@ -120,16 +122,16 @@
 
     }
 
-    #lemons {
-        margin-bottom: 500px;
+    // #lemons {
+    //     margin-bottom: 500px;
 
-        @include md {
-            margin-left: 80px;
-        }
+    //     @include md {
+    //         margin-left: 80px;
+    //     }
 
-        @include lg {
-            margin-left: 200px;
-        }
-    }
+    //     @include lg {
+    //         margin-left: 200px;
+    //     }
+    // }
 
 }
