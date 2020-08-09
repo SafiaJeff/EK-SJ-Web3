@@ -16,3 +16,4 @@ ScrollTrigger.create({
 gsap.set("#lemon1, #lemon2",{transformOrigin:"center center"});
 
 // gsap.to("#lemon",{duration:1, rotation:360, repeat:-1, ease: "none"})
+

@@ -9,4 +9,5 @@
 // @codekit-prepend "scrollTrigger/combinedTimeline.js";
 // @codekit-prepend "scrollTrigger/childPin.js";
 // @codekit-prepend "scrollTrigger/storyText.js";
+// @codekit-prepend "scrollTrigger/bgColorChange.js";
 

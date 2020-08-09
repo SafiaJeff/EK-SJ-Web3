@@ -15,6 +15,6 @@ ScrollTrigger.create({
     animation: storyTextTimeline,
     toggleActions: "restart pause play stop",
     scrub: 1,
-    markers: true,
+    // markers: true,
     id:"story-text"
 });
