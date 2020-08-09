@@ -7,7 +7,7 @@ ScrollTrigger.create({
     end: "bottom -1800px",
     animation: juiceTimeline,
     toggleActions: "restart none reverse none",
-    scrub: 10,
+    scrub: 30,
     id: "juice"
     // markers: true
 });

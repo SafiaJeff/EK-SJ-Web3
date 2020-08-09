@@ -8,4 +8,5 @@
 // @codekit-prepend "scrollTrigger/juice.js";
 // @codekit-prepend "scrollTrigger/combinedTimeline.js";
 // @codekit-prepend "scrollTrigger/childPin.js";
+// @codekit-prepend "scrollTrigger/storyText.js";
 
