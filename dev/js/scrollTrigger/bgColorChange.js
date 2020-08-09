@@ -11,7 +11,7 @@ ScrollTrigger.create({
     end: "bottom 50%",
     animation: bgTimeline,
     toggleActions: "restart play none none",
-    scrub: 15,
+    scrub: 1,
     markers: true,
     id:"bg-color-change"
 });
