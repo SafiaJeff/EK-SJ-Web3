@@ -373,7 +373,7 @@ h5 {
   margin: 0;
   padding: 0;
   color: #FBCC14;
-  font-size: 1.5625rem; }
+  font-size: 1.875rem; }
 
 p {
   margin: 0;
@@ -430,7 +430,9 @@ textarea {
     text-align: center;
     margin-top: 100px; }
   #content #other-links {
-    text-align: center; }
+    text-align: center;
+    color: #515151;
+    font-size: 1.125rem; }
     #content #other-links p:nth-child(2) a:link,
     #content #other-links p:nth-child(2) a:visited {
       transition: 0.25s;
@@ -438,10 +440,12 @@ textarea {
       text-decoration: none; }
     #content #other-links p:nth-child(2) a:hover,
     #content #other-links p:nth-child(2) a:active {
-      color: #D2E0B2;
+      color: #515151;
       text-decoration: none; }
   #content #scroll-down {
     text-align: center; }
+  #content #down-arrow {
+    font-size: 1.875rem; }
   #content #child {
     display: block;
     margin-left: auto;

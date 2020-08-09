@@ -12,10 +12,14 @@
     #opening-tag {
         text-align: center;
         margin-top: 100px;
+        
+
     }
 
     #other-links {
         text-align: center;
+        color: $dark-gray;
+        font-size: rem-calc(18);
 
         p:nth-child(2) {
 
@@ -28,7 +32,7 @@
 
             a:hover,
             a:active {
-                color: $light-green;
+                color: $dark-gray;
                 text-decoration: none;
             }
 
@@ -37,8 +41,12 @@
 
     #scroll-down {
         text-align: center;
+        
     }
 
+    #down-arrow{
+        font-size: rem-calc(30);
+    }
 
     #child {
         display: block;
