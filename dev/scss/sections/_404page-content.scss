@@ -175,23 +175,12 @@
             text-align: center;
             display: relative;
             z-index: 20;
-            padding: 500px 0px 50px 0px;
+            margin-top: 270px;
+         
+            padding: 150px 0px 140px 0px;
+            background-color:$background-yellow;
 
         }
     }
-
-   
-
-    // #lemons {
-    //     margin-bottom: 500px;
-
-    //     @include md {
-    //         margin-left: 80px;
-    //     }
-
-    //     @include lg {
-    //         margin-left: 200px;
-    //     }
-    // }
 
 }
