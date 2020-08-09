@@ -488,21 +488,21 @@ textarea {
       width: 200px;
       padding: 40px;
       margin-bottom: 50px;
-      margin-left: 200px; }
+      margin-left: 15vw; }
       #content #lemons #lemon1 svg {
         width: 100%; }
     #content #lemons #lemon2 {
       height: 250px;
       width: 250px;
       padding: 40px;
-      margin-left: 1000px; }
+      margin-left: 65vw; }
       #content #lemons #lemon2 svg {
         width: 100%; }
     #content #lemons #lemon3 {
-      height: 250px;
-      width: 250px;
+      height: 220px;
+      width: 220px;
       padding: 40px;
-      margin-left: 500px; }
+      margin-left: 30vw; }
       #content #lemons #lemon3 svg {
         width: 100%; }
   #content #story-text {
