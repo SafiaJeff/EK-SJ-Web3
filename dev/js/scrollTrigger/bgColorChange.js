@@ -12,6 +12,6 @@ ScrollTrigger.create({
     animation: bgTimeline,
     toggleActions: "restart play none none",
     scrub: 1,
-    markers: true,
+    // markers: true,
     id:"bg-color-change"
 });
