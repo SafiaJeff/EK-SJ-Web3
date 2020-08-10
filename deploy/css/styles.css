@@ -359,6 +359,17 @@ ul {
     color: #fff;
     text-decoration: none; }
 
+.thought-bubble-left {
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  background-color: #fff;
+  width: 200px; }
+
+.thought-bubble-right {
+  border-radius: 20px;
+  background-color: #fff;
+  width: 100px; }
+
 /* =============
     Typography
 ============= */
@@ -568,18 +579,40 @@ textarea {
           #content #lemons #lemon3 svg {
             width: 100%; } }
   #content #story-text {
-    overflow: hidden;
-    font-size: 1.125rem; }
+    overflow: hidden; }
     #content #story-text .story-left {
       text-align: left;
-      padding-left: 200px; }
+      margin-left: 50px; }
+      @media (min-width: 768px) {
+        #content #story-text .story-left {
+          margin-left: 100px; } }
+      @media (min-width: 992px) {
+        #content #story-text .story-left {
+          margin-left: 200px; } }
     #content #story-text .story-right {
       text-align: right;
-      padding-right: 200px;
-      padding-top: 400px; }
-    @media (min-width: 992px) {
-      #content #story-text {
-        font-size: 1.25rem; } }
+      margin-left: 100px;
+      margin-top: 400px; }
+      @media (min-width: 768px) {
+        #content #story-text .story-right {
+          margin-left: 500px; } }
+      @media (min-width: 992px) {
+        #content #story-text .story-right {
+          margin-left: 1000px; } }
+    #content #story-text p {
+      background-color: #fff;
+      font-size: 1.5625rem;
+      font-family: 'Caveat', cursive;
+      padding: 5px 10px 5px 10px;
+      border-radius: 20px;
+      width: 170px; }
+      @media (min-width: 768px) {
+        #content #story-text p {
+          width: 200px; } }
+      @media (min-width: 992px) {
+        #content #story-text p {
+          width: 250px;
+          font-size: 1.875rem; } }
     #content #story-text #part1,
     #content #story-text #part2,
     #content #story-text #part3 {

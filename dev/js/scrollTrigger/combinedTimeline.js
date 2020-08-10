@@ -1,8 +1,9 @@
 var combinedTimeline = gsap.timeline();
 
-combinedTimeline.to(".cheek", {alpha:0})
+combinedTimeline.to("#mouth",{duration:1, scale:0.5}, "drinking")
+                .to(".cheek", {alpha:0}, "drinking")
                 .to(".dimples", {alpha:0}, "sad")
-                .to("#mouth",{rotation:180}, "sad")
+                .to("#mouth",{rotation:180, scale:1}, "sad")
                 .to("#right-eyebrow", {rotation:30}, "sad")
                 .to("#left-eyebrow", {rotation:-30}, "sad")
 
