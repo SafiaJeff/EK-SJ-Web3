@@ -485,9 +485,6 @@ textarea {
     @media (min-width: 768px) {
       #content #child {
         width: 450px; } }
-    @media (min-width: 992px) {
-      #content #child {
-        border-bottom: 10px #D2E0B2 solid; } }
   #content #sun {
     margin-left: auto;
     display: block;
@@ -589,6 +586,6 @@ textarea {
       text-align: center;
       display: relative;
       z-index: 20;
-      margin-top: 270px;
+      margin-top: 262px;
       padding: 150px 0px 140px 0px;
       background-color: #FFFDF3; }
