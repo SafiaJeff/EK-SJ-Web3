@@ -1,7 +1,7 @@
 
 
 var arrowTimeline = gsap.timeline();
-arrowTimeline.from("#down-arrow",{duration:5, rotate:360, alpha:0})
+arrowTimeline.from("#down-arrow",{duration:5, rotate:360})
             
 
 ScrollTrigger.create({

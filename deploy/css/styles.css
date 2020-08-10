@@ -373,7 +373,7 @@ h5 {
   margin: 0;
   padding: 0;
   color: #FBCC14;
-  font-size: 1.875rem; }
+  font-size: 2.5rem; }
 
 p {
   margin: 0;
@@ -486,6 +486,7 @@ textarea {
       #content #child {
         width: 450px; } }
   #content #sun {
+    overflow: hidden;
     margin-left: auto;
     display: block;
     padding: 100px 20px 150px 0px;
@@ -567,6 +568,7 @@ textarea {
           #content #lemons #lemon3 svg {
             width: 100%; } }
   #content #story-text {
+    overflow: hidden;
     font-size: 1.125rem; }
     #content #story-text .story-left {
       text-align: left;

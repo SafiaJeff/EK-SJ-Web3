@@ -107,6 +107,7 @@
     }
 
     #sun {
+        overflow: hidden;
         margin-left: auto;
         display: block;
         padding: 100px 20px 150px 0px;
@@ -124,6 +125,7 @@
     }
 
     #lemons {
+        
         display: inline-block;
         margin: 0 auto;
         margin-bottom: 200px;
@@ -223,6 +225,7 @@
     }
 
     #story-text {
+        overflow: hidden;
         .story-left {
             text-align: left;
             padding-left: 200px;
