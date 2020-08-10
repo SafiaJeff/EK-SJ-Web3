@@ -267,8 +267,8 @@
             background-color: $white;
             font-size: rem-calc(25);
             font-family: 'Caveat', cursive;
-            padding: 5px 10px 5px 10px;
-            border-radius: 20px;
+            padding: 10px;
+            border-radius: 25px;
 
             width: 170px;
 
@@ -277,15 +277,39 @@
             }
 
             @include lg{
-                width: 250px;
                 font-size: rem-calc(30);
             }
         }
         
-
+        #part1L{
+            width: 210px;
+            padding-left: 20px;
+        }
         
+        #part1R{
+            width: 130px;
+            padding-right: 20px;
+        }
 
+        #part2L{
+            width: 90px;
+            padding-left: 20px;
+        }
 
+        #part2R{
+            width: 100px;
+            padding-right: 20px;
+        }
+
+        #part3L{
+            width: 120px;
+            padding-left: 20px;
+        }
+
+        #part3R{
+            width: 130px;
+            padding-right: 20px;
+        }
         #part1,
         #part2,
         #part3 {
