@@ -270,10 +270,15 @@
             padding: 10px;
             border-radius: 25px;
 
+            
+            border: solid 2px $dark-gray;
+            
+
             width: 170px;
 
             @include md{
                 width: 200px;
+                border: none;
             }
 
             @include lg{

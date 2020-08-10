@@ -605,10 +605,12 @@ textarea {
       font-family: 'Caveat', cursive;
       padding: 10px;
       border-radius: 25px;
+      border: solid 2px #515151;
       width: 170px; }
       @media (min-width: 768px) {
         #content #story-text p {
-          width: 200px; } }
+          width: 200px;
+          border: none; } }
       @media (min-width: 992px) {
         #content #story-text p {
           font-size: 1.875rem; } }
