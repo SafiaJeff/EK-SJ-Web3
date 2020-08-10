@@ -2,6 +2,7 @@ var leftXPercent =10;
 var RightXPercent = -10;
 
 var storyTextTimeline = gsap.timeline();
+
 storyTextTimeline.from("#part1L", {alpha:0, xPercent:leftXPercent})
                 .from("#part1R", {alpha:0, xPercent:RightXPercent})
                 .from("#part2L", {alpha:0, xPercent:leftXPercent})
