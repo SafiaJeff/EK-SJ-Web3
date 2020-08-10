@@ -9,36 +9,47 @@
     // #87CEFA
     padding-top: 10px;
 
-    #open-lemon{
-        position: absolute;
-        z-index: 1;
-        margin-left: 20%;
-       
-        
-        
-        // left: 500px;
-        top: 40px;
-     
-        height: 800px;
-        width: 800px;
-        // border: 1px solid red;
-       
+    #open-lemon {
 
         svg {
             width: 100%;
-            
         }
 
-        
+        position: absolute;
+        z-index: 1;
+        margin: 0px 6px;
+        height: 360px;
+        width: 360px;
+
+        @include md{
+            height: 700px;
+            width: 700px;
+            margin: 0px 30px;
+        }
+
+        @include lg {
+            // left: 500px;
+            top: 40px;
+            margin-left: 20%;
+            height: 800px;
+            width: 800px;
+            // border: 1px solid red;
+
+        }
     }
 
     #opening-tag {
         position: relative;
         text-align: center;
-        margin-top: 160px;
-       
+        margin-top: 27px;
         z-index: 30;
-        font-size: rem-calc(35);
+
+        @include md{
+            margin-top: 100px;
+        }
+        @include lg{
+            margin-top: 160px;
+        }
 
     }
 
@@ -71,10 +82,10 @@
 
     #scroll-down {
         text-align: center;
-        
+
     }
 
-    #down-arrow{
+    #down-arrow {
         font-size: rem-calc(30);
     }
 
@@ -82,24 +93,33 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        height: 50%;
-        border-bottom: 10px $light-green solid;
+        width: 300px;
+
+        @include md{
+            width: 450px;
+        }
+
+        @include lg {
+            // height: 50%;
+            border-bottom: 10px $light-green solid;
+        }
 
     }
 
     #sun {
         margin-left: auto;
         display: block;
-        padding-top: 100px;
-
-        margin-bottom: 150px;
+        padding: 100px 20px 150px 0px;
+        width: 250px;
 
         @include md {
             padding-right: 80px;
+            width: 350px;
         }
 
         @include lg {
-            padding-right: 200px;
+            padding: 100px 200px 150px 0px;
+            width: 500px;
         }
     }
 
@@ -108,46 +128,98 @@
         margin: 0 auto;
         margin-bottom: 200px;
 
-        #lemon1{
-            height: 200px;
-            width: 200px;
-            // border: 1px solid red;
+        #lemon1 {
+            height: 100px;
+            width: 100px;
             padding: 40px;
+            margin-bottom: 50px;
+            margin-left: 10vw;
 
             svg {
                 width: 100%;
             }
 
-            margin-bottom: 50px;
-            margin-left: 15vw;
+            @include md{
+                height: 180px;
+                width: 180px;
+                padding: 40px;
+                margin-bottom: 80px;
+                margin-left: 30vw;
+            }
+
+            @include lg {
+                height: 200px;
+                width: 200px;
+                // border: 1px solid red;
+                padding: 40px;
+                margin-bottom: 50px;
+                margin-left: 30vw;
+            }
+
         }
 
         #lemon2 {
-            height: 250px;
-            width: 250px;
-            // border: 1px solid red;
+            height: 130px;
+            width: 130px;
             padding: 40px;
+            margin-bottom: 50px;
+            margin-left: 40vw;
+
 
             svg {
                 width: 100%;
             }
 
-            margin-left: 65vw;
+            @include md{
+                height: 200px;
+                width: 200px;
+                padding: 40px;
+                margin-bottom: 80px;
+                margin-left: 10vw;
+            }
+
+            @include lg {
+                height: 250px;
+                width: 250px;
+                // border: 1px solid red;
+                padding: 40px;
+                margin-bottom: 50px;
+                margin-left: 50vw;
+            }
+
         }
 
         #lemon3 {
-            height: 220px;
-            width: 220px;
-            // border: 1px solid red;
-            padding: 40px;
 
-            svg {
-                width: 100%;
+            height: 150px;
+            width: 150px;
+            padding: 40px;
+            margin-left: 15vw;
+
+            @include md{
+                height: 200px;
+                width: 200px;
+                padding: 40px;
+                margin-bottom: 80px;
+                margin-left: 40vw;
             }
 
-            margin-left: 30vw;
+            @include lg {
+                height: 220px;
+                width: 220px;
+                // border: 1px solid red;
+                padding: 40px;
+                margin-left: 30vw;
+
+                svg {
+                    width: 100%;
+                }
+
+
+            }
+
         }
-        
+
     }
 
     #story-text {
@@ -163,7 +235,12 @@
             padding-top: 400px;
         }
 
-        font-size: rem-calc(20);
+        font-size: rem-calc(18);
+
+        @include lg {
+            font-size: rem-calc(20);
+        }
+
 
         #part1,
         #part2,
@@ -176,9 +253,9 @@
             display: relative;
             z-index: 20;
             margin-top: 270px;
-         
+
             padding: 150px 0px 140px 0px;
-            background-color:$background-yellow;
+            background-color: $background-yellow;
 
         }
     }

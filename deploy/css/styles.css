@@ -383,16 +383,16 @@ p {
   color: #515151; }
 
 #opening-tag {
-  font-size: 1.5625rem; }
+  font-size: 1.03125rem; }
   @media (min-width: 768px) {
     #opening-tag {
       font-size: 1.875rem; } }
   @media (min-width: 992px) {
     #opening-tag {
-      font-size: 2.0625rem; } }
+      font-size: 2.1875rem; } }
   @media (min-width: 1200px) {
     #opening-tag {
-      font-size: 2.5rem; } }
+      font-size: 2.1875rem; } }
 /* =============
     Buttons
 ============= */
@@ -429,18 +429,33 @@ textarea {
   #content #open-lemon {
     position: absolute;
     z-index: 1;
-    margin-left: 20%;
-    top: 40px;
-    height: 800px;
-    width: 800px; }
+    margin: 0px 6px;
+    height: 360px;
+    width: 360px; }
     #content #open-lemon svg {
       width: 100%; }
+    @media (min-width: 768px) {
+      #content #open-lemon {
+        height: 700px;
+        width: 700px;
+        margin: 0px 30px; } }
+    @media (min-width: 992px) {
+      #content #open-lemon {
+        top: 40px;
+        margin-left: 20%;
+        height: 800px;
+        width: 800px; } }
   #content #opening-tag {
     position: relative;
     text-align: center;
-    margin-top: 160px;
-    z-index: 30;
-    font-size: 2.1875rem; }
+    margin-top: 27px;
+    z-index: 30; }
+    @media (min-width: 768px) {
+      #content #opening-tag {
+        margin-top: 100px; } }
+    @media (min-width: 992px) {
+      #content #opening-tag {
+        margin-top: 160px; } }
   #content #other-links {
     text-align: center;
     position: relative;
@@ -466,47 +481,96 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 50%;
-    border-bottom: 10px #D2E0B2 solid; }
+    width: 300px; }
+    @media (min-width: 768px) {
+      #content #child {
+        width: 450px; } }
+    @media (min-width: 992px) {
+      #content #child {
+        border-bottom: 10px #D2E0B2 solid; } }
   #content #sun {
     margin-left: auto;
     display: block;
-    padding-top: 100px;
-    margin-bottom: 150px; }
+    padding: 100px 20px 150px 0px;
+    width: 250px; }
     @media (min-width: 768px) {
       #content #sun {
-        padding-right: 80px; } }
+        padding-right: 80px;
+        width: 350px; } }
     @media (min-width: 992px) {
       #content #sun {
-        padding-right: 200px; } }
+        padding: 100px 200px 150px 0px;
+        width: 500px; } }
   #content #lemons {
     display: inline-block;
     margin: 0 auto;
     margin-bottom: 200px; }
     #content #lemons #lemon1 {
-      height: 200px;
-      width: 200px;
+      height: 100px;
+      width: 100px;
       padding: 40px;
       margin-bottom: 50px;
-      margin-left: 15vw; }
+      margin-left: 10vw; }
       #content #lemons #lemon1 svg {
         width: 100%; }
+      @media (min-width: 768px) {
+        #content #lemons #lemon1 {
+          height: 180px;
+          width: 180px;
+          padding: 40px;
+          margin-bottom: 80px;
+          margin-left: 30vw; } }
+      @media (min-width: 992px) {
+        #content #lemons #lemon1 {
+          height: 200px;
+          width: 200px;
+          padding: 40px;
+          margin-bottom: 50px;
+          margin-left: 30vw; } }
     #content #lemons #lemon2 {
-      height: 250px;
-      width: 250px;
+      height: 130px;
+      width: 130px;
       padding: 40px;
-      margin-left: 65vw; }
+      margin-bottom: 50px;
+      margin-left: 40vw; }
       #content #lemons #lemon2 svg {
         width: 100%; }
+      @media (min-width: 768px) {
+        #content #lemons #lemon2 {
+          height: 200px;
+          width: 200px;
+          padding: 40px;
+          margin-bottom: 80px;
+          margin-left: 10vw; } }
+      @media (min-width: 992px) {
+        #content #lemons #lemon2 {
+          height: 250px;
+          width: 250px;
+          padding: 40px;
+          margin-bottom: 50px;
+          margin-left: 50vw; } }
     #content #lemons #lemon3 {
-      height: 220px;
-      width: 220px;
+      height: 150px;
+      width: 150px;
       padding: 40px;
-      margin-left: 30vw; }
-      #content #lemons #lemon3 svg {
-        width: 100%; }
+      margin-left: 15vw; }
+      @media (min-width: 768px) {
+        #content #lemons #lemon3 {
+          height: 200px;
+          width: 200px;
+          padding: 40px;
+          margin-bottom: 80px;
+          margin-left: 40vw; } }
+      @media (min-width: 992px) {
+        #content #lemons #lemon3 {
+          height: 220px;
+          width: 220px;
+          padding: 40px;
+          margin-left: 30vw; }
+          #content #lemons #lemon3 svg {
+            width: 100%; } }
   #content #story-text {
-    font-size: 1.25rem; }
+    font-size: 1.125rem; }
     #content #story-text .story-left {
       text-align: left;
       padding-left: 200px; }
@@ -514,6 +578,9 @@ textarea {
       text-align: right;
       padding-right: 200px;
       padding-top: 400px; }
+    @media (min-width: 992px) {
+      #content #story-text {
+        font-size: 1.25rem; } }
     #content #story-text #part1,
     #content #story-text #part2,
     #content #story-text #part3 {
