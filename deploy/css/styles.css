@@ -603,16 +603,35 @@ textarea {
       background-color: #fff;
       font-size: 1.5625rem;
       font-family: 'Caveat', cursive;
-      padding: 5px 10px 5px 10px;
-      border-radius: 20px;
+      padding: 10px;
+      border-radius: 25px;
+      border: solid 2px #515151;
       width: 170px; }
       @media (min-width: 768px) {
         #content #story-text p {
-          width: 200px; } }
+          width: 200px;
+          border: none; } }
       @media (min-width: 992px) {
         #content #story-text p {
-          width: 250px;
           font-size: 1.875rem; } }
+    #content #story-text #part1L {
+      width: 210px;
+      padding-left: 20px; }
+    #content #story-text #part1R {
+      width: 130px;
+      padding-right: 20px; }
+    #content #story-text #part2L {
+      width: 90px;
+      padding-left: 20px; }
+    #content #story-text #part2R {
+      width: 100px;
+      padding-right: 20px; }
+    #content #story-text #part3L {
+      width: 120px;
+      padding-left: 20px; }
+    #content #story-text #part3R {
+      width: 130px;
+      padding-right: 20px; }
     #content #story-text #part1,
     #content #story-text #part2,
     #content #story-text #part3 {
